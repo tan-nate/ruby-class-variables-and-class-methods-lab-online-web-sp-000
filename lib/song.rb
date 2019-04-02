@@ -30,5 +30,6 @@ class Song
     counts = Hash.new(0)
     @@genres.each { |name| counts[name] += 1 }
     counts
+    binding.pry
   end
 end
