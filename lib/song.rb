@@ -32,6 +32,6 @@ class Song
     counts = {}
     @@genres.each { |name| counts[name] += 1 }
     counts
-    binding.pry
+    #binding.pry
   end
 end
